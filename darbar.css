@@ -1,0 +1,114 @@
+body{margin: 0px; width: 100%; overflow-x: hidden; background-color: #000000; color: white;}
+*,*::after,*::before{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+    /* فونت وزیر */
+    font-family: "Vazirmatn", system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+}
+
+
+
+.title{
+    direction: rtl;
+    color: #FFE100;
+    margin: 30px auto;
+    margin-bottom: 50px;
+}
+.hr{
+    width: 146px;
+    margin-right: 0%;
+    margin-top: -12px;
+    color: #eee8e8ba;
+}
+.p1{
+    direction: rtl;
+    padding-right: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:white;
+}
+.divco{
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}
+/* p{
+    text-align: center;
+} */
+.Margin{
+    margin-top: 10px;
+    height: 90%;
+    width: 48%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .Margin1{
+    margin-top: 16px !important;
+    height: 90%;
+    width: 90%;
+    
+    border: 1px solid wheat;
+}
+.bak{
+    background-color: black;
+    width: 90%;
+    height: 90%;
+}
+.img1{
+height: 98px;
+margin-left: 10px;
+margin-top: 1px;
+margin-left: 4px;
+}
+.div1{
+    height: 109px;
+    width: 109px;
+    border: 2px solid #FFE100;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+    margin-top: 43px;
+}
+.p2{
+    direction: rtl;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+.send{
+    
+        /*! margin-left: -7px; */
+        font-size: 28px;
+
+        /*! margin-left: 25px; */
+        color: white;
+        text-align: center;
+}
+/* .img{
+    height: 74px;
+    margin-left: 15px;
+    margin-top: 16px;
+    ! margin: auto;
+} */
+.mar{
+    position: relative;
+}
+.img{
+    position: absolute;
+    width: 80%;
+    top: 8%;
+    right: 10px;
+}
+@media (max-width:600px) {
+    .Margin{
+        width: 100%;
+    }
+    .p1{
+        padding-right: 15px;
+    }
+}
